@@ -16,16 +16,16 @@ Microsoft Excel - PivotTables & PivotCharts, Data Analysis ToolPak (correlation 
 
 ## Key Findings
 - Discounts above 20% generate an average loss of $107 per order - no-discount orders are the only consistently profitable tier
-- Sales significantly predicts Profit (R² = 0.23, statistically significant) - confirmed via regression, not just correlation
+- Sales explains about 23% of the variation in Profit (R² = 0.23, statistically significant, Sales coefficient 0.18) - confirmed via regression, not just correlation
 - Technology drives 50.79% of total profit despite Furniture taking up a full third of the product catalogue but contributing only 6.44%
 - The South region generates the highest revenue per order ($242) despite the lowest order volume
-- The 12-month sales forecast projects continued seasonal growth, with Q4 (Sep-Nov) consistently the strongest period
+- The 12-month sales forecast projects continued seasonal growth, with autumn (Sep-Nov) consistently the strongest period
 
 ## Recommendations
 - Cap discounts at 20% across all regions and categories
 - Investigate and restructure the underperforming Furniture category
 - Study the South region's higher-value sales approach for replication elsewhere
-- Align inventory and staffing planning to the forecasted Q4 demand peak
+- Align inventory and staffing planning to the forecasted autumn demand peak
 
 ## Files in This Repository
 - `Superstore_Sales_Analysis_Workbook.xlsx` - full workbook: cleaned data, dashboard, Power Pivot model, DAX measures, forecast
@@ -35,5 +35,5 @@ Microsoft Excel - PivotTables & PivotCharts, Data Analysis ToolPak (correlation 
 ## How to Run
 1. Download the dataset from Kaggle (Superstore Sales dataset)
 2. Open the workbook - the Dashboard tab opens first with the full visual summary
-3. Supporting sheets follow in this order: Raw Data → Clean Data → Pivots → Analysis → Regression → Sales Forecast, for anyone who wants to see the underlying method
+3. Supporting sheets follow in this order: RAW Data → Clean Data → Pivots → Regression → Sales Forecast → Analysis → Measure Validation, for anyone who wants to see the underlying method
 
